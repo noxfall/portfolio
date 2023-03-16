@@ -1,4 +1,3 @@
-import './App.css';
 import Layout from './components/Layout';
 import Hero from './scenes/Hero';
 import About from './scenes/About';
