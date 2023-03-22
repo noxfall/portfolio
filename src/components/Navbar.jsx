@@ -43,7 +43,7 @@ const Navbar = () => {
           <img src='/logo.svg' alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Milos &nbsp;
-            <span className='sm:block hidden'> | Noxfall Labs, Inc.</span>
+            <span className='sm:block hidden'>| Noxfall Labs, Inc.</span>
           </p>
         </Link>
 
