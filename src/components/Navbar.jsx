@@ -11,7 +11,7 @@ const Navbar = () => {
       <div>
         <Link to="/" className="flex flex-row items-center">
           <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
-          <p>Milos &nbsp;<span>| Noxfall Labs, Inc.</span></p>
+          <p>Milos&nbsp;<span>| Noxfall Labs, Inc.</span></p>
         </Link>
       </div>
     </nav>

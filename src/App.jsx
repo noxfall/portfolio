@@ -1,6 +1,7 @@
 import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './scenes/Hero';
+import { Canvas, useFrame } from '@react-three/fiber';
 // import About from './scenes/About';
 
 const App = () => {
