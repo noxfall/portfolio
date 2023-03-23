@@ -4,6 +4,9 @@ import Hero from './scenes/Hero';
 import About from './scenes/About';
 import Experience from './scenes/Experience';
 import Tech from './scenes/Tech';
+import Work from './scenes/Work';
+import Feedback from './scenes/Feedback';
+import Contact from './components/Contact';
 
 const App = () => {
   return (
@@ -16,11 +19,10 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        {/*<Works />*/}
-        {/*<Feedbacks />*/}
+        <Work />
+        <Feedback />
         <div className="relative z-0">
-          {/*<Contact />*/}
-          {/*<StarsCanvas />*/}
+          <Contact />
         </div>
       </div>
     </BrowserRouter>

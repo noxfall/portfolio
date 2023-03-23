@@ -1,8 +1,10 @@
+import { styles } from '../styles';
+
 const About = () => {
   return (
     <section>
-      <h1>Overview</h1>
-      <p>
+      <h2 className={styles.sectionHeadText}>Overview</h2>
+      <p className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]">
         I'm an experienced and passionate web developer
         skilled in Javascript, Typescript, and expertise
         in frameworks like React, NodeJS and ThreeJS.
