@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './scenes/Hero';
 import About from './scenes/About';
 import Experience from './scenes/Experience';
+import Tech from './scenes/Tech';
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
-        {/*<Tech />*/}
+        <Tech />
         {/*<Works />*/}
         {/*<Feedbacks />*/}
         <div className="relative z-0">
