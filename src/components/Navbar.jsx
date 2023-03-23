@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between items-center max-w-7x1 mx-auto">
       <div>
         <Link to="/" className="flex flex-row items-center">
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img src={logo} alt="logo" className="w-7 h-7 object-contain" />
           <p>Milos&nbsp;<span>| Noxfall Labs, Inc.</span></p>
         </Link>
       </div>

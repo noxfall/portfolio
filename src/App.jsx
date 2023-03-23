@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './scenes/Hero';
 import About from './scenes/About';
+import Experience from './scenes/Experience';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/*<Experience />*/}
+        <Experience />
         {/*<Tech />*/}
         {/*<Works />*/}
         {/*<Feedbacks />*/}
