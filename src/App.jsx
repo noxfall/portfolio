@@ -20,8 +20,8 @@ const App = () => {
         <Experience />
         <Tech />
         <Work />
-        <Feedback />
-        <div className="relative z-0">
+        <div className="relative z-0 flex flex-col justify-center items-center">
+          <Feedback />
           <Contact />
         </div>
       </div>

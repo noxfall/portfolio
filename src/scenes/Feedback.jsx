@@ -5,9 +5,9 @@ import FeedbackCard from '../components/FeedbackCard';
 
 const Feedback = () => {
   return (
-    <div className="mt-12 bg-black-100 rounded-[20px]">
-      <div className={`bg-tertiary rounded-2x1 ${styles.padding} min-h-[300px]`}>
-        <div>
+    <div className="mt-12 bg-black-100 rounded-[20px] flex flex-col justify-center items-center">
+      <div className={`bg-tertiary rounded-2x1 ${styles.padding} min-h-[300px] w-full`}>
+        <div className="w-full">
           <p className={styles.sectionSubText}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </div>
