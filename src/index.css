@@ -218,4 +218,21 @@ footer {
   text-align: center;
   color: rgba(255, 255, 255, .5);
   font-size: .85rem;
+  background-color: #050816;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrolbar-track {
+  background: #050816;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #383e56;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #915eff;
 }

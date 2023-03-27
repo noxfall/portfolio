@@ -1,3 +1,4 @@
+import ComputerCanvas from '../components/ComputerCanvas';
 import { styles } from '../styles';
 
 const Hero = () => {
@@ -12,6 +13,8 @@ const Hero = () => {
           and web applications
         </p>
       </div>
+
+      <ComputerCanvas />
     </section>
   );
 }
