@@ -1,4 +1,6 @@
 import { styles } from '../styles';
+import { services } from '../constants';
+import ServiceCard from '../components/ServiceCard';
 
 const About = () => {
   return (
@@ -13,6 +15,11 @@ const About = () => {
         your ideas to life, and grow your business in the
         process.
       </p>
+      <div className="mt-20 flex flex-wrap gap-10">
+        {services.map((service, index) => (
+          <ServiceCard key={service.title} index={index} {...service} />
+        ))}
+      </div>
     </section>
   );
 };
