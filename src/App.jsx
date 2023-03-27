@@ -7,6 +7,7 @@ import Tech from './scenes/Tech';
 import Work from './scenes/Work';
 import Feedback from './scenes/Feedback';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -25,6 +26,7 @@ const App = () => {
           <Contact />
         </div>
       </div>
+      <Footer />
     </BrowserRouter>
   );
 };
