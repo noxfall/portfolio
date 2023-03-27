@@ -7,7 +7,7 @@ import XpCard from "../components/XpCard";
 
 const Experience = () => {
   return (
-    <section>
+    <section id="work">
       <div>
         <p className={`${styles.sectionSubText} text-center`}>
           What I've done so far

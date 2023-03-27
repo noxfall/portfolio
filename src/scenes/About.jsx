@@ -4,7 +4,7 @@ import ServiceCard from '../components/ServiceCard';
 
 const About = () => {
   return (
-    <section>
+    <section id="about" className="my-10 h-screen flex justify-center items-center">
       <h2 className={styles.sectionHeadText}>Overview</h2>
       <p className="mt-4 text-secondary text-[17px] max-w-3x1 leading-[30px]">
         I'm an experienced and passionate web developer

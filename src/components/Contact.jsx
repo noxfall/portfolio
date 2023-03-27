@@ -57,7 +57,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden w-full justify-center">
+    <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden w-full justify-center" id="contact">
       <div className="flex-[0.75] bg-black-100 p-8 rounded-2x1">
         <p className={`${styles.sectionSubText}`}>Get in touch</p>
         <h3 className={`${styles.sectionHeadText}`}>Contact</h3>

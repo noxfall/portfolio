@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard';
 
 const Work = () => {
   return (
-    <section>
+    <section className="h-screen">
       <div className="flex flex-col justify-center items-center">
         <p className={`${styles.sectionSubText}`}>My Work</p>
         <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
